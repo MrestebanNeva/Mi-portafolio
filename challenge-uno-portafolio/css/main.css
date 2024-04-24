@@ -1,0 +1,39 @@
+@import url(reset.css);
+@import url(section-menu.css);
+@import url(section-tittle.css);
+@import url(section-about.css);
+@import url(section-skills.css);
+@import url(section-hobbies.css);
+@import url(section-formación.css);
+@import url(section-experiencia.css);
+@import url(section-contacto-footer.css);
+
+body{
+    font-family: Orbitron, Changa, sans-serif;
+    line-height: 1;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+p{
+    font-family: Changa, sans-serif;
+}
+
+.menu-container-todo{
+    display: flex;
+    flex-direction: column;
+    
+}

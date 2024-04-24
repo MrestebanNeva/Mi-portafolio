@@ -1,0 +1,43 @@
+.academic{
+    padding: 20px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.academic-title{
+    margin-bottom: 20px;
+}
+
+.academic-courses-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 680px){
+
+    .academic-title{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1240px){
+
+    .academic-title{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .academic{
+        margin-bottom: 60px;
+        padding: 30px 90px 0;
+    }
+
+    .academic-title{
+        font-size: 30px;
+    }
+}
